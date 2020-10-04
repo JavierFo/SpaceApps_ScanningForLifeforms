@@ -66,10 +66,12 @@
 		D1E2F17C2528D16C00A62660 /* SpeciesFinder */ = {
 			isa = PBXGroup;
 			children = (
+				D1E2F1B22528F56B00A62660 /* SlideInPresentationAnimator.swift */,
+				D1E2F1B32528F56B00A62660 /* SlideInPresentationController.swift */,
+				D1E2F1B42528F56B00A62660 /* SlideInPresentationManager.swift */,
 				D1E2F1BC2528FEDD00A62660 /* Views */,
 				D1E2F1BB2528FED800A62660 /* Models */,
 				D1E2F1BA2528FECE00A62660 /* ViewControllers */,
-				D1E2F1B12528F55400A62660 /* Utils */,
 				D1E2F17D2528D16C00A62660 /* AppDelegate.swift */,
 				D1E2F17F2528D16C00A62660 /* SceneDelegate.swift */,
 				D1E2F1832528D16C00A62660 /* Main.storyboard */,
@@ -78,16 +80,6 @@
 				D1E2F18B2528D16E00A62660 /* Info.plist */,
 			);
 			path = SpeciesFinder;
-			sourceTree = "<group>";
-		};
-		D1E2F1B12528F55400A62660 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				D1E2F1B22528F56B00A62660 /* SlideInPresentationAnimator.swift */,
-				D1E2F1B32528F56B00A62660 /* SlideInPresentationController.swift */,
-				D1E2F1B42528F56B00A62660 /* SlideInPresentationManager.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		D1E2F1BA2528FECE00A62660 /* ViewControllers */ = {
