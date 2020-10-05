@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D1E2F17E2528D16C00A62660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F17D2528D16C00A62660 /* AppDelegate.swift */; };
 		D1E2F1802528D16C00A62660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F17F2528D16C00A62660 /* SceneDelegate.swift */; };
-		D1E2F1822528D16C00A62660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1812528D16C00A62660 /* ViewController.swift */; };
 		D1E2F1852528D16C00A62660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E2F1832528D16C00A62660 /* Main.storyboard */; };
 		D1E2F1872528D16E00A62660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E2F1862528D16E00A62660 /* Assets.xcassets */; };
 		D1E2F18A2528D16E00A62660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E2F1882528D16E00A62660 /* LaunchScreen.storyboard */; };
@@ -18,13 +17,19 @@
 		D1E2F1B72528F56B00A62660 /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1B42528F56B00A62660 /* SlideInPresentationManager.swift */; };
 		D1E2F1B92528FEC700A62660 /* SpeciesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1B82528FEC700A62660 /* SpeciesMapViewController.swift */; };
 		D1E2F1BE252973BE00A62660 /* MkCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1BD252973BE00A62660 /* MkCircle.swift */; };
+		D1E2F1C0252A200100A62660 /* SpeciesRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1BF252A200100A62660 /* SpeciesRegion.swift */; };
+		D1E2F1C2252A21DA00A62660 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1C1252A21DA00A62660 /* Spinner.swift */; };
+		D1E2F1C6252A234000A62660 /* ShowScannedSpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1C5252A234000A62660 /* ShowScannedSpeciesViewController.swift */; };
+		D1E2F1C8252A25FF00A62660 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1C7252A25FF00A62660 /* CustomButton.swift */; };
+		D1E2F1CA252A2BB700A62660 /* SpeciesAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1C9252A2BB700A62660 /* SpeciesAPIs.swift */; };
+		D1E2F1CC252AA50B00A62660 /* SpeciesInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1E2F1CB252AA50B00A62660 /* SpeciesInfo.plist */; };
+		D1E2F1D0252AC55500A62660 /* SpeciesHabitats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1CF252AC55500A62660 /* SpeciesHabitats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1E2F17A2528D16C00A62660 /* SpeciesFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeciesFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E2F17D2528D16C00A62660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E2F17F2528D16C00A62660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1E2F1812528D16C00A62660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1E2F1842528D16C00A62660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1E2F1862528D16E00A62660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1E2F1892528D16E00A62660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +39,13 @@
 		D1E2F1B42528F56B00A62660 /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
 		D1E2F1B82528FEC700A62660 /* SpeciesMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesMapViewController.swift; sourceTree = "<group>"; };
 		D1E2F1BD252973BE00A62660 /* MkCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MkCircle.swift; sourceTree = "<group>"; };
+		D1E2F1BF252A200100A62660 /* SpeciesRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesRegion.swift; sourceTree = "<group>"; };
+		D1E2F1C1252A21DA00A62660 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Spinner.swift; path = SpeciesFinder/Models/Spinner.swift; sourceTree = SOURCE_ROOT; };
+		D1E2F1C5252A234000A62660 /* ShowScannedSpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowScannedSpeciesViewController.swift; sourceTree = "<group>"; };
+		D1E2F1C7252A25FF00A62660 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = SpeciesFinder/ViewControllers/CustomButton.swift; sourceTree = SOURCE_ROOT; };
+		D1E2F1C9252A2BB700A62660 /* SpeciesAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesAPIs.swift; sourceTree = "<group>"; };
+		D1E2F1CB252AA50B00A62660 /* SpeciesInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SpeciesInfo.plist; sourceTree = "<group>"; };
+		D1E2F1CF252AC55500A62660 /* SpeciesHabitats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesHabitats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,7 @@
 		D1E2F1712528D16C00A62660 = {
 			isa = PBXGroup;
 			children = (
+				D1E2F1CB252AA50B00A62660 /* SpeciesInfo.plist */,
 				D1E2F17C2528D16C00A62660 /* SpeciesFinder */,
 				D1E2F17B2528D16C00A62660 /* Products */,
 			);
@@ -66,6 +79,8 @@
 		D1E2F17C2528D16C00A62660 /* SpeciesFinder */ = {
 			isa = PBXGroup;
 			children = (
+				D1E2F1CF252AC55500A62660 /* SpeciesHabitats.swift */,
+				D1E2F1C9252A2BB700A62660 /* SpeciesAPIs.swift */,
 				D1E2F1B22528F56B00A62660 /* SlideInPresentationAnimator.swift */,
 				D1E2F1B32528F56B00A62660 /* SlideInPresentationController.swift */,
 				D1E2F1B42528F56B00A62660 /* SlideInPresentationManager.swift */,
@@ -85,8 +100,8 @@
 		D1E2F1BA2528FECE00A62660 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D1E2F1812528D16C00A62660 /* ViewController.swift */,
 				D1E2F1B82528FEC700A62660 /* SpeciesMapViewController.swift */,
+				D1E2F1C5252A234000A62660 /* ShowScannedSpeciesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -95,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E2F1BD252973BE00A62660 /* MkCircle.swift */,
+				D1E2F1BF252A200100A62660 /* SpeciesRegion.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -102,6 +118,8 @@
 		D1E2F1BC2528FEDD00A62660 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D1E2F1C1252A21DA00A62660 /* Spinner.swift */,
+				D1E2F1C7252A25FF00A62660 /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +185,7 @@
 				D1E2F18A2528D16E00A62660 /* LaunchScreen.storyboard in Resources */,
 				D1E2F1872528D16E00A62660 /* Assets.xcassets in Resources */,
 				D1E2F1852528D16C00A62660 /* Main.storyboard in Resources */,
+				D1E2F1CC252AA50B00A62660 /* SpeciesInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +196,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E2F1822528D16C00A62660 /* ViewController.swift in Sources */,
 				D1E2F1B52528F56B00A62660 /* SlideInPresentationAnimator.swift in Sources */,
 				D1E2F17E2528D16C00A62660 /* AppDelegate.swift in Sources */,
+				D1E2F1C6252A234000A62660 /* ShowScannedSpeciesViewController.swift in Sources */,
 				D1E2F1BE252973BE00A62660 /* MkCircle.swift in Sources */,
 				D1E2F1B62528F56B00A62660 /* SlideInPresentationController.swift in Sources */,
 				D1E2F1B72528F56B00A62660 /* SlideInPresentationManager.swift in Sources */,
 				D1E2F1802528D16C00A62660 /* SceneDelegate.swift in Sources */,
+				D1E2F1CA252A2BB700A62660 /* SpeciesAPIs.swift in Sources */,
+				D1E2F1D0252AC55500A62660 /* SpeciesHabitats.swift in Sources */,
+				D1E2F1C8252A25FF00A62660 /* CustomButton.swift in Sources */,
 				D1E2F1B92528FEC700A62660 /* SpeciesMapViewController.swift in Sources */,
+				D1E2F1C0252A200100A62660 /* SpeciesRegion.swift in Sources */,
+				D1E2F1C2252A21DA00A62660 /* Spinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

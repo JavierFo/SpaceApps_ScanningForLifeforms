@@ -13,7 +13,7 @@ class Character: MKCircle {
   var color: UIColor?
   
   // 3
-    convenience init(color: UIColor, center : CLLocationCoordinate2D) {
+    convenience init(color: UIColor, center : CLLocationCoordinate2D, radius : CLLocationDistance) {
 //    guard let points = Park.plist(filename) as? [String] else {
 //      self.init()
 //      return
@@ -26,9 +26,9 @@ class Character: MKCircle {
 //        longitude: CLLocationDegrees($0.y))
 //    }
     
-    let randomRadius = CLLocationDistance(Int.random(in: 5...39))
+    //let randomRadius = CLLocationDistance(Int.random(in: 5...39))
     
-    self.init(center: center, radius: randomRadius)
+    self.init(center: center, radius: radius)
     self.color = color
   }
 }

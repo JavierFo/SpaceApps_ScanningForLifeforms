@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Caribbean Sea</key>
+	<dict>
+		<key>ENDANGERED SPECIES</key>
+		<array>
+			<string>Pink jellyfish - Invasive species</string>
+			<string>Pink tern</string>
+			<string>Sea ​​cow</string>
+			<string>Black corals</string>
+			<string>Snail queen</string>
+			<string>White shrimp - Invasive species</string>
+		</array>
+		<key>Longitude</key>
+		<integer>-75</integer>
+		<key>Latitude</key>
+		<integer>15</integer>
+	</dict>
+	<key>Gulf of California</key>
+	<dict>
+		<key>ENDANGERED SPECIES</key>
+		<array>
+			<string>Totoaba</string>
+			<string>Whitetip reef shark</string>
+			<string>Silverside sardine</string>
+			<string>Fishing bat</string>
+			<string>Ishige foliacea - Invasive Species</string>
+		</array>
+		<key>Longitude</key>
+		<real>-112.5</real>
+		<key>Latitude</key>
+		<real>28.45</real>
+	</dict>
+	<key>Gulf of Mexico</key>
+	<dict>
+		<key>ENDANGERED SPECIES</key>
+		<array>
+			<string>Olive ridley turtles</string>
+			<string>Gulf sturgeon</string>
+			<string>Comb and long tooth sawfish
+</string>
+			<string>Texan pipe fish and snake</string>
+			<string>Mayan octopus</string>
+		</array>
+		<key>Longitude</key>
+		<real>-90.065918</real>
+		<key>Latitude</key>
+		<real>25.304304</real>
+	</dict>
+	<key>Bering sea</key>
+	<dict>
+		<key>ENDANGERED SPECIES</key>
+		<array>
+			<string>Short-tailed albatross</string>
+			<string>Greenland whales</string>
+			<string>Pacific walrus</string>
+			<string>Steller&apos;s sea lion</string>
+			<string>Alaskan seal</string>
+		</array>
+		<key>Longitude</key>
+		<real>-178.139472</real>
+		<key>Latitude</key>
+		<real>56.90728</real>
+	</dict>
+</dict>
+</plist>
