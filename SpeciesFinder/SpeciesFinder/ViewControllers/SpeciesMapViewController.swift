@@ -10,6 +10,7 @@ import UIKit
 import MapKit
 
 var searchCoordinate: CLLocationCoordinate2D?
+var speciesTableValues : [String] = ["NO DATA"]
 
 class SpeciesMapViewController: UIViewController, UIGestureRecognizerDelegate {
 
@@ -83,21 +84,7 @@ class SpeciesMapViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     @IBAction func scanWithCoordinates(_ sender: UIButton) {
-//        if  let path        = Bundle.main.path(forResource: "SpeciesInfo", ofType: "plist"),
-//            let xml         = FileManager.default.contents(atPath: path),
-//            let species = try? PropertyListDecoder().decode([String: Region.self], from: xml)
-//        {
-//            print(species.region)
-//        }
-        
-        do {
-                   let path   = Bundle.main.path(forResource: "SpeciesInfo", ofType: "plist")
-                   let binary  = FileManager.default.contents(atPath: path!) 
-            let species = try? PropertyListDecoder().decode([String : Region].self, from: binary!)
-            print(species!["Caribbean Sea"])
-            } catch {
-
-        }
+        LookForSpeciesWithCoordinates()
     }
     
 
@@ -128,15 +115,41 @@ extension SpeciesMapViewController : MKMapViewDelegate {
     
 }
 
-func LookForSpeciesWithCoordinates (coordinates: CLLocationCoordinate2D) {
+func LookForSpeciesWithCoordinates () {
+        
+//    let searchCoordinateLatitudeMin = searchCoordinate!.latitude - 100
+//    let searchCoordinateLongitudeMin = searchCoordinate!.longitude - 100
+//
+//    let searchCoordinateLatitudeMax = searchCoordinate!.latitude + 100
+//    let searchCoordinateLongitudeMax = searchCoordinate!.longitude + 100
     
-    if  let path        = Bundle.main.path(forResource: "SpeciesInfo", ofType: "plist"),
-        let xml         = FileManager.default.contents(atPath: path),
-        let species = try? PropertyListDecoder().decode(Region.self, from: xml)
-    {
-        print(species.region)
+    let gulfMexlongitude = GulfofMexico["Longitude"] as! Double
+    let gulfMexlatitude = GulfofMexico["Latitude"] as! Double
+    
+    let GulfofCalifornialongitude = GulfofCalifornia["Longitude"] as! Double
+    let GulfofCalifornialatitude = GulfofCalifornia["Latitude"] as! Double
+    
+    let CaribbeanSealongitude = CaribbeanSea["Longitude"] as! Double
+    let CaribbeanSealatitude = CaribbeanSea["Latitude"] as! Double
+    
+    let BeringSealongitude = BeringSea["Longitude"] as! Double
+    let BeringSealatitude = BeringSea["Latitude"] as! Double
+     
+    if (searchCoordinate!.latitude - gulfMexlatitude) <= 1000 || (searchCoordinate!.latitude - gulfMexlatitude) >= -1000 {
+        
+        speciesTableValues = (GulfofMexico["ENDANGERED_SPECIES"] as? [String])!
+        
+    }else if (searchCoordinate!.latitude - GulfofCalifornialatitude) <= 1000 || (searchCoordinate!.latitude - GulfofCalifornialatitude) >= -1000 {
+        
+        speciesTableValues = (GulfofCalifornia["ENDANGERED_SPECIES"] as? [String])!
+        
+    }else if (searchCoordinate!.latitude - CaribbeanSealatitude) <= 1000 || (searchCoordinate!.latitude - CaribbeanSealatitude) >= -1000 {
+        
+        speciesTableValues = (CaribbeanSea["ENDANGERED_SPECIES"] as? [String])!
+        
+    }else if (searchCoordinate!.latitude - BeringSealatitude) <= 1000 || (searchCoordinate!.latitude - BeringSealatitude) >= -1000 {
+        
+        speciesTableValues = (BeringSea["ENDANGERED_SPECIES"] as? [String])!
     }
-    
-    //if (coordinates - 50) <
     
 }

@@ -24,6 +24,7 @@
 		D1E2F1CA252A2BB700A62660 /* SpeciesAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1C9252A2BB700A62660 /* SpeciesAPIs.swift */; };
 		D1E2F1CC252AA50B00A62660 /* SpeciesInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1E2F1CB252AA50B00A62660 /* SpeciesInfo.plist */; };
 		D1E2F1D0252AC55500A62660 /* SpeciesHabitats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1CF252AC55500A62660 /* SpeciesHabitats.swift */; };
+		D1E2F1D4252AD4A400A62660 /* EndangeredSpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F1D3252AD4A400A62660 /* EndangeredSpeciesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		D1E2F1C9252A2BB700A62660 /* SpeciesAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesAPIs.swift; sourceTree = "<group>"; };
 		D1E2F1CB252AA50B00A62660 /* SpeciesInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SpeciesInfo.plist; sourceTree = "<group>"; };
 		D1E2F1CF252AC55500A62660 /* SpeciesHabitats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesHabitats.swift; sourceTree = "<group>"; };
+		D1E2F1D3252AD4A400A62660 /* EndangeredSpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredSpeciesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				D1E2F1B82528FEC700A62660 /* SpeciesMapViewController.swift */,
 				D1E2F1C5252A234000A62660 /* ShowScannedSpeciesViewController.swift */,
+				D1E2F1D3252AD4A400A62660 /* EndangeredSpeciesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				D1E2F1BE252973BE00A62660 /* MkCircle.swift in Sources */,
 				D1E2F1B62528F56B00A62660 /* SlideInPresentationController.swift in Sources */,
 				D1E2F1B72528F56B00A62660 /* SlideInPresentationManager.swift in Sources */,
+				D1E2F1D4252AD4A400A62660 /* EndangeredSpeciesViewController.swift in Sources */,
 				D1E2F1802528D16C00A62660 /* SceneDelegate.swift in Sources */,
 				D1E2F1CA252A2BB700A62660 /* SpeciesAPIs.swift in Sources */,
 				D1E2F1D0252AC55500A62660 /* SpeciesHabitats.swift in Sources */,
